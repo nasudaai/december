@@ -10,3 +10,15 @@ function sum(...numbers) {
 
 const total = sum(1, 2, 3, 4, 5, 6, 7, 8, 9)
 console.log(total);
+
+
+function main(a, b, ...params) {
+  console.log(a);
+  console.log(b);
+  console.log(params);
+}
+
+
+main('a', 'b', 'c', 'd', 'e' );
+
+
